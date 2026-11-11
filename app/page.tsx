@@ -58,8 +58,12 @@ export const menuLang:MenuLangType={
       },
     "Contact":{
         menuItemTakeout:"Կոնտակտներ",
-        textTakeout:"",
-        textDeals:""
+        textTakeout:(<>
+            <p>Էլ․ փոստ: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
+        textDeals:(<>
+            <p>Էլ․ փոստ: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
       }
   },
   "eng":{
@@ -100,8 +104,12 @@ export const menuLang:MenuLangType={
       },
     "Contact":{
         menuItemTakeout:"Contact us",
-        textTakeout:"",
-        textDeals:""
+        textTakeout:(<>
+            <p>Email: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
+        textDeals:(<>
+            <p>Email: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
       }
   },
   "ru":{
@@ -142,8 +150,12 @@ export const menuLang:MenuLangType={
       },
     "Contact":{
         menuItemTakeout:"Контакты",
-        textTakeout:"",
-        textDeals:""
+        textTakeout:(<>
+            <p>Почта: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
+        textDeals:(<>
+            <p>Почта: <a href="mailto:appsosa.am@gmail.com" className="opacity-30 hover:opacity-100 transition-opacity duration-300">appsosa.am@gmail.com</a></p>
+          </>),
       }
   },
 }

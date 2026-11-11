@@ -21,7 +21,12 @@ export default function Footer({menu,setMenu,t,model}:props){
                 <button className="opacity-30 hover:opacity-100 transition duration-300">
                     <Image className="w-15 xl:w-20" src={appstore_link} alt="Appstore link"/>
                 </button>
-                <button className="opacity-30 hover:opacity-100 transition duration-300">
+                <button className="opacity-30 hover:opacity-100 transition duration-300" 
+                    onClick={() => window.open(
+                        "https://play.google.com/store/apps/details?id=am.appsosa.app&hl=ru",
+                        "_blank",
+                        "noopener,noreferrer"
+                    )}>
                     <Image className="w-15 xl:w-20" src={google_link} alt="Google link"/>
                 </button>
             </div>
