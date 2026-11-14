@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://YOUR-DOMAIN.com"),
+  metadataBase: new URL("https://appsosa.am"),
 
   title: {
     default: "Appsosa — Turn Surplus into Profit",

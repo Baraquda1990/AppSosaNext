@@ -5,8 +5,8 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Appsosa",
-    url: "https://YOUR-DOMAIN.com",
-    logo: "https://YOUR-DOMAIN.com/logo.png",
+    url: "https://appsosa.am",
+    logo: "https://appsosa.am",
     description:
       "A marketplace connecting businesses and buyers to monetize surplus products and reduce waste.",
   };
