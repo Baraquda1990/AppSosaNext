@@ -31,7 +31,7 @@ export default function Header({lang,setLang}:props){
     },[lang])
     return(
         <header className="min-h-[80px] relative">
-            <div className="absolute top-10 right-10 
+            <div className="hidden md:block absolute top-10 right-10 
             [&>button]:uppercase [&>button]:text-sm [&>button]:font-extrabold 
             [&>button:hover]:text-[#CE0003]
             flex space-x-6">

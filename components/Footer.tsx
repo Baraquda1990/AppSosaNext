@@ -11,8 +11,8 @@ type props={
 }
 export default function Footer({menu,setMenu,t,model}:props){
     return(
-        <footer className="min-h-[80px] grid grid-cols-3 items-center mb-3 text-[#D1BC00]/41">
-            <button className={`xl:text-xl 2xl:text-3xl font-extrabold hover:text-[#D1BC00] transition duration-300
+        <footer className="min-h-[80px] grid grid-cols-1 md:grid-cols-3 items-center mb-3 text-[#D1BC00]/41">
+            <button className={`hidden md:block xl:text-xl 2xl:text-3xl font-extrabold hover:text-[#D1BC00] transition duration-300
                 ${menu=="SurpriseBag"&&"text-[#D1BC00]"}`}
                 onClick={()=>setMenu("SurpriseBag")}
             >{model === "deals"?t["SurpriseBag"].menuItemDeals??t["SurpriseBag"].menuItemTakeout:t["SurpriseBag"].menuItemTakeout}
@@ -30,7 +30,7 @@ export default function Footer({menu,setMenu,t,model}:props){
                     <Image className="w-15 xl:w-20" src={google_link} alt="Google link"/>
                 </button>
             </div>
-            <button className={`xl:text-xl 2xl:text-3xl font-extrabold hover:text-[#D1BC00] transition duration-300
+            <button className={`hidden md:block xl:text-xl 2xl:text-3xl font-extrabold hover:text-[#D1BC00] transition duration-300
                 ${menu=="Contact"&&"text-[#D1BC00]"}`}
                 onClick={()=>setMenu("Contact")}
             >{model === "deals"?t["Contact"].menuItemDeals??t["Contact"].menuItemTakeout:t["Contact"].menuItemTakeout}

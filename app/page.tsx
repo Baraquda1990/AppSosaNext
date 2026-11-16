@@ -10,6 +10,7 @@ import comp3 from "@/public/comp_3.png"
 import Image from "next/image"
 import logo from "@/public/logo.png"
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
+import DrawerLeft from "@/components/Drawer";
 export type langType="arm"|"eng"|"ru"
 export type menuType="WhanWeDo"|"WhatWeAre"|"WhatWeWant"|"WhatYouGet"|"OneQuestion"|"SurpriseBag"|"Contact"
   |"SideA"|"SideB"
@@ -22,7 +23,7 @@ export type TranslationSection = {
 //type titleType="Թեյքաութ մոդել"|"Takeout model"|"Модель Тейкаут"
 export type MenuLangType = Record<langType,Record<menuType, TranslationSection>>
 const PaymentCancellationReturnPolicyEN=(
-<ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+<ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
 <h3 className="font-bold">1. Payment Terms</h3>
 <ul className="[&>li]:ms-6 [&>li]:mb-2 list-disc">
     <li><span className="font-semibold">Accepted Payment Methods:</span> All transactions on Appsosa must be completed electronically in Armenian Dram (AMD) 
@@ -99,7 +100,7 @@ const PaymentCancellationReturnPolicyEN=(
 )
 
 const PaymentCancellationReturnPolicyHY = (
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">1. Վճարման պայմաններ</h3>
 
     <ul className="[&>li]:ms-6 [&>li]:mb-2 list-disc">
@@ -284,7 +285,7 @@ const PaymentCancellationReturnPolicyHY = (
 )
 
 const PaymentCancellationReturnPolicyRU = (
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">1. Условия оплаты</h3>
 
     <ul className="[&>li]:ms-6 [&>li]:mb-2 list-disc">
@@ -469,7 +470,7 @@ const PaymentCancellationReturnPolicyRU = (
 )
 
 const MerchantTermsConditionsEN=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Financial Terms, Payouts & Tax Compliance
     </h3>
@@ -677,7 +678,7 @@ const MerchantTermsConditionsEN=(
 )
 
 const MerchantTermsConditionsHY=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Ֆինանսական պայմաններ, վճարումներ և հարկային համապատասխանություն
     </h3>
@@ -887,7 +888,7 @@ const MerchantTermsConditionsHY=(
 )
 
 const MerchantTermsConditionsRU=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Финансовые условия, выплаты и налоговое соответствие
     </h3>
@@ -1079,7 +1080,7 @@ const MerchantTermsConditionsRU=(
 )
 
 const ScheduledDealsPolicyEN=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">1. Payment Terms</h3>
 
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
@@ -1295,7 +1296,7 @@ const ScheduledDealsPolicyEN=(
 )
 
 const ScheduledDealsPolicyHY=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">1. Վճարման պայմաններ</h3>
 
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
@@ -1503,7 +1504,7 @@ const ScheduledDealsPolicyHY=(
 )
 
 const ScheduledDealsPolicyRU=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">1. Условия оплаты</h3>
 
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
@@ -1728,7 +1729,7 @@ const ScheduledDealsPolicyRU=(
 )
 
 const MerchantTermsEN=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Financial Terms, Payouts & Tax Compliance
     </h3>
@@ -1916,7 +1917,7 @@ const MerchantTermsEN=(
 )
 
 const MerchantTermsHY=(
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Ֆինանսական պայմաններ, վճարումներ և հարկային համապատասխանություն
     </h3>
@@ -2129,7 +2130,7 @@ const MerchantTermsHY=(
 )
 
 const MerchantTermsRU = (
-  <ScrollArea className="h-[55dvh] w-[40dvw] rounded-md border p-4 font-normal">
+  <ScrollArea className="h-[55dvh] rounded-md border p-4 font-normal">
     <h3 className="font-bold">
       1. Финансовые условия, выплаты и налоговое соответствие
     </h3>
@@ -2548,37 +2549,20 @@ export default function Page() {
   const [title,setTitle]=useState<string>("Թեյքաութ մոդել")
   const [preTitle,setPreTitle]=useState<"From Surplus to Profit"|"От излишков к прибыли"|"Ավելցուկից դեպի շահույթ">("От излишков к прибыли")
   useEffect(()=>{
-    if(model=="deals"){
       switch(lang){
         case "eng":
-          setTitle("Deals model")
+          model=="deals"?setTitle("Deals model"):setTitle("Takeout model")
           setPreTitle("From Surplus to Profit")
         break
         case "arm":
-          setTitle("Գործարքների մոդել")
+          model=="deals"?setTitle("Գործարքների մոդել"):setTitle("Թեյքաութ մոդել")
           setPreTitle("Ավելցուկից դեպի շահույթ")
         break
         case "ru":
-          setTitle("Модель Дилс")
+          model=="deals"?setTitle("Модель Дилс"):setTitle("Модель Тейкаут")
           setPreTitle("От излишков к прибыли")
         break
       }
-    }else if(model=="takeout"){
-      switch(lang){
-        case "eng":
-          setTitle("Takeout model")
-          setPreTitle("From Surplus to Profit")
-        break
-        case "arm":
-          setTitle("Թեյքաութ մոդել")
-          setPreTitle("Ավելցուկից դեպի շահույթ")
-        break
-        case "ru":
-          setTitle("Модель Тейкаут")
-          setPreTitle("От излишков к прибыли")
-        break
-      }
-    }
   },[lang,model])
 
   const [loading, setLoading] = useState(true)
@@ -2591,7 +2575,7 @@ export default function Page() {
 
   return (
   <>
-
+  <DrawerLeft header={title} menu={menu} setMenu={setMenu} t={t} model={model} lang={lang} setLang={setLang} setModel={setModel}/>
     <AnimatePresence>
       {loading && (<>
         <motion.div
@@ -2640,8 +2624,8 @@ export default function Page() {
 
   <Header lang={lang} setLang={setLang}/>
     <main className="flex-1 flex flex-col">
-    <section className="flex-1 grid grid-cols-5">
-      <aside className="grid grid-rows-8 mx-auto">
+    <section className="flex-1 grid grid-cols-1 md:grid-cols-5">
+      <aside className="hidden md:grid grid-rows-8 mx-auto">
         <div className="row-span-2 flex flex-col justify-center">
           <h3 className="xl:text-xl 2xl:text-3xl font-bold
             bg-gradient-to-br from-[#736942] to-[#D9C57B] bg-clip-text text-transparent
@@ -2651,7 +2635,7 @@ export default function Page() {
         </div>
         <ul className="row-span-3 xl:text-xl 2xl:text-3xl font-bold text-[#736942]/41
         [&>li>button:hover]:text-[#736942] [&>li>button]:transition [&>li>button]:duration-300
-        space-y-3 mt-4">
+        space-y-3 mt-4 text-center lg:text-left">
           <li><button className={`${menu=="WhanWeDo"&&"text-[#736942]"}`} 
                 onClick={()=>setMenu("WhanWeDo")}
                 >{model === "deals"?t["WhanWeDo"].menuItemDeals??t["WhanWeDo"].menuItemTakeout:t["WhanWeDo"].menuItemTakeout}
@@ -2678,7 +2662,8 @@ export default function Page() {
         </div>
       </aside>
 
-      <section className="col-span-3 flex justify-center mt-20 text-[#736942]">
+      <section className="col-span-1 md:col-span-3 flex justify-center mt-20 text-[#736942] mx-4">
+        
         <AnimatePresence mode="wait">
           <motion.div
             key={`${lang}-${menu}-${model}`}
@@ -2686,7 +2671,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.35, ease: "easeInOut" }}
-            className="xl:text-xl 2xl:text-2xl font-semibold max-w-[800px]"
+            className="xl:text-xl 2xl:text-2xl font-semibold max-w-[1200px] md:max-w-[800px]"
           >
             {model === "deals"
               ? t[menu].textDeals
@@ -2694,10 +2679,10 @@ export default function Page() {
           </motion.div>
         </AnimatePresence>
       </section>
-
-      <aside className="flex flex-col items-end justify-start">
+      
+      <aside className="hidden md:flex flex-col items-end justify-start">
   
-        <ul className="row-span-3 text-xl font-bold text-[#736942]/41
+        <ul className="row-span-3 xl:text-xl 2xl:text-3xl font-bold text-[#736942]/41
         [&>li>button:hover]:text-[#736942] [&>li>button]:transition [&>li>button]:duration-300
         space-y-3 mt-4 mb-15 me-5">
           <li><button className={`${menu=="SideA"&&"text-[#736942]"}`} 

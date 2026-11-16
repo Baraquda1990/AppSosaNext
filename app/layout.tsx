@@ -91,9 +91,9 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="h-dvh overflow-hidden">
+      <body className="h-dvh">
         <ThemeProvider>
-        <div className="min-h-dvh flex flex-col border-[10px] border-solid border-transparent [background:linear-gradient(white,white)_padding-box,linear-gradient(45deg,#CE0003,#D1BC00)_border-box]">
+        <div className=" max-w-[1920px] mx-auto min-h-dvh flex flex-col border-[10px] border-solid border-transparent [background:linear-gradient(white,white)_padding-box,linear-gradient(45deg,#CE0003,#D1BC00)_border-box]">
           <JsonLd />
           {children}
         </div>
