@@ -1,5 +1,13 @@
 # Appsosa
 ![Appsosa](./prev/prev.png)
+<video width="720" controls>
+  <source src="./prev/desktop.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
+<video width="400" controls>
+  <source src="./prev/mobile.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
 ### 🌐 Live Demo
 [https://app-sosa-next.vercel.app/](https://app-sosa-next.vercel.app/)
 ## О проекте
