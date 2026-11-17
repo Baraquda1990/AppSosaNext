@@ -1241,9 +1241,9 @@ const ScheduledDealsPolicyEN=(
 
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
       <li>
-        <span className="font-semibold">7-Day Return Right:</span> In accordance
+        <span className="font-semibold">14-Day Return Right:</span> In accordance
         with Armenian distance-selling regulations, you may request a return
-        within <b>7 calendar days</b> of receiving non-perishable items,
+        within <b>14 calendar days</b> of receiving non-perishable items,
         provided that:
         <ol className="list-decimal [&>li]:ms-6 [&>li]:mb-2">
           <li>
@@ -1281,7 +1281,7 @@ const ScheduledDealsPolicyEN=(
       <li>
         <span className="font-semibold">Submitting Evidence:</span> Within the
         applicable reporting window (<b>24 hours</b> for food/damage;{" "}
-        <b>7 days</b> for unopened retail items), open a dispute on your order
+        <b>14 days</b> for unopened retail items), open a dispute on your order
         to launch the temporary chat, where you can{" "}
         <b>upload clear photos of the product</b>, ask questions, and coordinate
         return logistics directly with the Merchant.
@@ -1451,9 +1451,9 @@ const ScheduledDealsPolicyHY=(
 
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
       <li>
-        <span className="font-semibold">7-օրյա վերադարձի իրավունք.</span> ՀՀ
+        <span className="font-semibold">14-օրյա վերադարձի իրավունք.</span> ՀՀ
         հեռավար առևտրի կանոնակարգերի համաձայն՝ դուք կարող եք վերադարձնել
-        չփչացող ապրանքները ստանալուց հետո <b>7 օրացուցային օրվա ընթացքում</b>,
+        չփչացող ապրանքները ստանալուց հետո <b>14 օրացուցային օրվա ընթացքում</b>,
         եթե՝
         <ol className="list-decimal [&>li]:ms-6 [&>li]:mb-2">
           <li>
@@ -1490,7 +1490,7 @@ const ScheduledDealsPolicyHY=(
       </li>
       <li>
         <span className="font-semibold">Ապացույցների ներկայացում.</span>{" "}
-        Սահմանված ժամկետում (<b>24 ժամ</b>՝ սննդի/վնասվածքի դեպքում, <b>7 օր</b>՝
+        Սահմանված ժամկետում (<b>24 ժամ</b>՝ սննդի/վնասվածքի դեպքում, <b>14 օր</b>՝
         չբացված ապրանքների դեպքում) բացեք վեճ պատվերի էջում՝ ժամանակավոր չաթը
         միացնելու համար, որտեղ կարող եք <b>կցել ապրանքի լուսանկարները</b>, տալ
         հարցեր և վաճառողի հետ քննարկել վերադարձի մանրամասները:
@@ -1666,11 +1666,11 @@ const ScheduledDealsPolicyRU=(
     <ul className="list-disc [&>li]:ms-6 [&>li]:mb-2">
       <li>
         <span className="font-semibold">
-          Право на возврат в течение 7 дней:
+          Право на возврат в течение 14 дней:
         </span>{" "}
         В соответствии с законодательством РА о дистанционной торговле вы
         можете вернуть нескоропортящийся товар в течение{" "}
-        <b>7 календарных дней</b> с момента получения при соблюдении следующих
+        <b>14 календарных дней</b> с момента получения при соблюдении следующих
         условий:
         <ol className="list-decimal [&>li]:ms-6 [&>li]:mb-2">
           <li>
@@ -1715,7 +1715,7 @@ const ScheduledDealsPolicyRU=(
           Предоставление доказательств:
         </span>{" "}
         В течение установленного срока (<b>24 часа</b> для продуктов/повреждений;
-        <b> 7 дней</b> для невскрытых розничных товаров) откройте спор по заказу,
+        <b> 14 дней</b> для невскрытых розничных товаров) откройте спор по заказу,
         чтобы активировать временный чат, где вы сможете{" "}
         <b>загрузить четкие фотографии товара</b>, задать вопросы и обсудить
         детали возврата напрямую с продавцом.
@@ -1873,7 +1873,7 @@ const MerchantTermsEN=(
         <span className="font-semibold">Temporary Resolution Chat:</span> When
         a Buyer opens a return request or quality dispute (within{" "}
         <b>2 hours</b> for Takeout; <b>24 hours</b> for delivered food/damage;
-        or <b>7 days</b> for unopened non-perishable retail goods), a{" "}
+        or <b>14 days</b> for unopened non-perishable retail goods), a{" "}
         <b>temporary in-app chat</b> opens connecting the Merchant and Buyer
         directly.
       </li>
@@ -1901,10 +1901,10 @@ const MerchantTermsEN=(
       </li>
       <li>
         <span className="font-semibold">
-          Non-Fault Buyer Returns (7-Day Rule):
+          Non-Fault Buyer Returns (14-Day Rule):
         </span>{" "}
         For unopened, factory-sealed non-perishable retail items returned
-        within 7 days due to a Buyer's change of mind, the Buyer covers return
+        within 14 days due to a Buyer's change of mind, the Buyer covers return
         shipping. Once the Merchant inspects and confirms the item is intact in
         the temporary chat, the product price is refunded to the Buyer.
       </li>
@@ -2079,7 +2079,7 @@ const MerchantTermsHY=(
         </span>{" "}
         Երբ գնորդը բացում է վերադարձի կամ որակի վերաբերյալ հայտ (
         <b>2 ժամվա</b> ընթացքում՝ Takeout-ի համար, <b>24 ժամվա</b> ընթացքում՝
-        առաքված սննդի/վնասվածքի համար, կամ <b>7 օրվա</b> ընթացքում՝ չբացված
+        առաքված սննդի/վնասվածքի համար, կամ <b>14 օրվա</b> ընթացքում՝ չբացված
         մանրածախ ապրանքների համար), հավելվածում բացվում է{" "}
         <b>ժամանակավոր չաթ</b>, որն ուղղակիորեն կապում է Վաճառողին և Գնորդին:
       </li>
@@ -2113,10 +2113,10 @@ const MerchantTermsHY=(
       </li>
       <li>
         <span className="font-semibold">
-          Գնորդի նախաձեռնությամբ վերադարձ (7-օրյա կանոն).
+          Գնորդի նախաձեռնությամբ վերադարձ (14-օրյա կանոն).
         </span>{" "}
         Առանց թերության, գործարանային փակ փաթեթավորմամբ չփչացող ապրանքները
-        7 օրվա ընթացքում վերադարձնելիս հետադարձ առաքման ծախսը հոգում է գնորդը:
+        14 օրվա ընթացքում վերադարձնելիս հետադարձ առաքման ծախսը հոգում է գնորդը:
         Ապրանքը ստանալուց և անվնաս լինելը ժամանակավոր չաթում հաստատելուց հետո
         ապրանքի արժեքը վերադարձվում է գնորդին:
       </li>
@@ -2305,7 +2305,7 @@ const MerchantTermsRU = (
         </span>{" "}
         При открытии Покупателем заявки на возврат или претензии по качеству
         (в течение <b>2 часов</b> для Takeout; <b>24 часов</b> для доставленной
-        еды/повреждений; <b>7 дней</b> для невскрытых розничных товаров)
+        еды/повреждений; <b>14 дней</b> для невскрытых розничных товаров)
         в приложении активируется <b>временный чат</b>, напрямую соединяющий
         Продавца и Покупателя.
       </li>
@@ -2345,10 +2345,10 @@ const MerchantTermsRU = (
 
       <li>
         <span className="font-semibold">
-          Возврат товара надлежащего качества (Правило 7 дней):
+          Возврат товара надлежащего качества (Правило 14 дней):
         </span>{" "}
         При возврате невскрытого нескоропортящегося товара в заводской
-        упаковке в течение 7 дней по личной инициативе Покупателя обратную
+        упаковке в течение 14 дней по личной инициативе Покупателя обратную
         доставку оплачивает Покупатель. После получения товара и подтверждения
         его сохранности во временном чате стоимость товара возвращается
         Покупателю.
