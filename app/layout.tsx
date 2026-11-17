@@ -21,7 +21,9 @@ export const metadata: Metadata = {
     default: "Appsosa — Turn Surplus into Profit",
     template: "%s | Appsosa",
   },
-
+  verification: {
+    yandex: 'c45544256528e110',
+  },
   description:
     "Appsosa helps restaurants, food businesses, manufacturers and suppliers turn surplus products into profit through an innovative marketplace in Armenia.",
 
