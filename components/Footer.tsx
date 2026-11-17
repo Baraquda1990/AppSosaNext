@@ -3,6 +3,8 @@ import google_link from "@/public/google_link.png"
 import appstore_link from "@/public/appstore_link.png"
 import Image from "next/image"
 import { menuType,TranslationSection } from "@/app/page"
+import mastervisa from "@/public/mastervisa.png"
+import arca from "@/public/arca.jpg"
 type props={
     menu:menuType,
     setMenu:Dispatch<SetStateAction<menuType>>,
@@ -11,7 +13,11 @@ type props={
 }
 export default function Footer({menu,setMenu,t,model}:props){
     return(
-        <footer className="min-h-[80px] grid grid-cols-1 md:grid-cols-3 items-center mb-3 text-[#D1BC00]/41">
+        <footer className="min-h-[80px] grid grid-cols-1 md:grid-cols-3 items-center mb-3 text-[#D1BC00]/41 relative">
+            <div className="md:hidden flex flex-col absolute bottom-1 right-1 space-y-1">
+                <Image src={arca} alt="Arca" className="w-[60px]" />
+                <Image src={mastervisa} alt="Visa & MasterCard" className="w-[60px]" />
+            </div>
             <button className={`hidden md:block xl:text-xl 2xl:text-3xl font-extrabold hover:text-[#D1BC00] transition duration-300
                 ${menu=="SurpriseBag"&&"text-[#D1BC00]"}`}
                 onClick={()=>setMenu("SurpriseBag")}

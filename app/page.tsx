@@ -7,6 +7,8 @@ import comp6 from "@/public/comp_6.png"
 import comp5 from "@/public/comp_5.png"
 import comp4 from "@/public/comp_4.png"
 import comp3 from "@/public/comp_3.png"
+import mastervisa from "@/public/mastervisa.png"
+import arca from "@/public/arca.jpg"
 import Image from "next/image"
 import logo from "@/public/logo.png"
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
@@ -2713,6 +2715,8 @@ export default function Page() {
             >
               <Image src={comp3} alt="" className="w-6 h-6 object-contain"/></button>
           </div>
+          <Image src={arca} alt="Arca" className="w-[80px]" />
+          <Image src={mastervisa} alt="Visa & MasterCard" className="w-[80px]" />
         </div>
 
       </aside>

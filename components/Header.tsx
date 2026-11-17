@@ -51,7 +51,7 @@ export default function Header({lang,setLang}:props){
             <h1 className="sr-only">
                 AppSosa - приложение доставки еды
             </h1>
-            <div className="flex items-center justify-center my-5 space-x-2">
+            <div className="flex items-center justify-center space-x-2">
             <AnimatePresence mode="wait">
             <motion.h3
                 key={title01}
