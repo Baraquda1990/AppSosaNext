@@ -1,0 +1,46 @@
+.page {
+  min-height: 100vh;
+  padding: 0 20px 50px;
+  background: #f8f8f3;
+  color: #25251f;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+}
+.shell { max-width: 900px; margin: 0 auto; }
+.header { min-height: 82px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 900; font-size: 24px; text-decoration: none; color: #28281d; }
+.mark { display: grid; place-items: center; width: 35px; height: 35px; border-radius: 12px; background: #d1bc00; color: #fff; }
+.tag { color: #77786a; font-size: 12px; }
+.article { padding: 10px 0 0; }
+.intro { padding: 28px 0 30px; }
+.eyebrow { font-size: 12px; letter-spacing: .11em; color: #786d00; font-weight: 800; text-transform: uppercase; }
+.intro h1 { margin: 8px 0 5px; font-size: clamp(32px, 5vw, 51px); line-height: 1.12; letter-spacing: -.04em; }
+.intro p { max-width: 730px; color: #55594e; margin: 12px 0 0; }
+.intro .subtitle { margin: 7px 0 20px; color: #847700; font-size: 14px; font-weight: 700; }
+.card { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 14px; margin-bottom: 17px; padding: 29px 30px; border-radius: 22px; background: #fff; border: 1px solid #edede6; }
+.stepNumber { display: grid; place-items: center; width: 39px; height: 39px; border-radius: 13px; background: #f5f0c8; color: #726700; font-weight: 900; font-size: 13px; }
+.card h2 { font-size: clamp(20px, 3vw, 25px); margin: 2px 0 12px; line-height: 1.3; }
+.card p { margin: 10px 0; color: #575a52; }
+.steps { margin: 0; padding-left: 22px; }
+.steps li { padding: 4px 0; }
+.featured { border-color: #d1bc00; box-shadow: 0 12px 38px rgba(124,112,0,.07); }
+.cta { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 13px; padding: 10px 19px; margin: 14px 0 3px; background: #d1bc00; color: #17170c; font-weight: 800; text-decoration: none; }
+.cta:hover { background: #ecd52a; }
+.contactLine { overflow-wrap: anywhere; }
+.contactLine a, .translationBody a { color: #746700; font-weight: 800; }
+.card .tip { font-size: 13px; color: #686b64; margin-top: 13px; }
+.translations { display: grid; gap: 11px; margin-top: 23px; }
+.translations details { background: #fff; padding: 15px 19px; border-radius: 13px; border: 1px solid #e8e8e2; }
+.translations summary { cursor: pointer; font-weight: 750; }
+.translationBody { padding-top: 7px; font-size: 14px; line-height: 1.65; color: #555; }
+.footer { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; border-top: 1px solid #e9e9e0; padding: 24px 0; margin-top: 26px; font-size: 13px; color: #777; }
+.footer a { color: #686a60; text-decoration: none; }
+@media (max-width: 580px) {
+  .page { padding: 0 14px 30px; }
+  .header { padding: 12px 0; }
+  .article { padding: 0; }
+  .intro { padding: 15px 4px 20px; }
+  .card { padding: 21px 17px; grid-template-columns: 1fr; gap: 10px; }
+  .card h2 { margin: 0 0 8px; }
+  .cta { width: 100%; text-align: center; }
+}
